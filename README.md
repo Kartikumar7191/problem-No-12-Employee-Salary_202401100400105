@@ -1,1 +1,9 @@
-# EmployeeSalary-Analysis-Explore-correlations-in-employee-salaries-and-positions-with-visualizations.
+The provided Python code carries out a comprehensive Employee Salary Analysis by analyzing the correlation between salary, job roles, and years of experience. The code starts with importing relevant libraries, i.e., Pandas for data manipulation and Matplotlib & Seaborn for data visualization. A sample data is then prepared, which is comprised of various employees with distinct job titles, salaries, and years of experience. This data is saved in a Pandas DataFrame for future analysis.
+
+In order to comprehend the data, the script initially prints out the initial rows and simple descriptive statistics, including mean, minimum, and maximum values for salaries and experience. For examining salary trends, a histogram is graphed to represent the distribution of salaries among employees to determine frequent salary ranges. A box plot is employed to contrast salary distributions for various job titles to identify outliers and salary differences among various jobs.
+
+In order to investigate how experience affects salary, a scatter plot is produced, plotting experience against salary. This aids in observing any correlation or trend in these two factors. A correlation matrix is also calculated and depicted using a heatmap, illustrating relationship strengths between experience and salary. In case there is a positive high correlation, this implies employees with greater experience earn higher salaries.
+
+In addition, the script determines the average salary for every job title, giving information on which jobs are the most and least remunerative. Lastly, it specifically calculates the correlation between years of experience and salary, enabling a clearer comprehension of how experience affects salary increases.
+
+In total, this analysis offers useful information on salary structures, trends, and imbalances in an organization. The findings can be helpful to HR departments and management in making informed salary decisions, ensuring equitable compensation, and determining areas where salaries may need to be adjusted.
